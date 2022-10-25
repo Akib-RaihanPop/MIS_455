@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OverWatch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trispace&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script src="https://kit.fontawesome.com/6f6e8e1141.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid bg-dark ">
+
+   
+
+    <!-- Navbar section -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand mb-0 h1" href="#"><img src="/Photos/logo.png" alt="logo" width="100" height="100" />
+                OverWatch</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.overwatchleague.com/en-us/" target="_blank">OverWatch-League</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://overwatch.blizzard.com/en-us/news/" target="_blank">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://us.shop.battle.net/en-us/product/overwatch?blzcmp=ow_gamesite" target="_blank">Download</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Image Slider -->
+
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="8000">
+                <div class="overlay-image" style="background-image: url(./Photos/slide1.png);"></div>
+                <div class="container caption">
+                    <h1 class="animate__animated animate__rollIn">Mercy</h1>
+                    <p>
+                        You’re fully healed, now get out there
+                    </p>
+                    
+                </div>
+
+            </div>
+            <div class="carousel-item" data-interval="8000">
+                <div class="overlay-image" style="background-image: url(./Photos/slide2.png);"></div>
+                <div class="container caption">
+                    <h1 class="animate__animated animate__slideInRight">Genji</h1>
+                    <p>
+                        My blade is ready to be unleashed!
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="carousel-item" data-interval="8000">
+                <div class="overlay-image" style="background-image: url(./Photos/slide3.jpg);"></div>
+                <div class="container caption">
+                    <h1 class="animate__animated animate__flip">Reaper</h1>
+                    <p>
+                        I will feast on their souls!
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="carousel-item" data-interval="8000">
+                <div class="overlay-image" style="background-image: url(./Photos/slide4.jpg);"></div>
+                <div class="container caption">
+                    <h1 class="animate__animated animate__backInDown">Moira</h1>
+                    <p>
+                        We must all make sacrifices in the name of science!
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Cards section -->
+
+    <div class="container p-3 my-3 bg-dark text-white">
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card text-white bg-dark mb-3">
+                    <img src="/Photos/card1.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Cassidy</h5>
+                        <p class="card-text">Armed with his Peacekeeper revolver, Cassidy takes out 
+                            targets with deadeye precision and dives out of danger 
+                            with eagle-like speed</p>
+                        <a href="https://overwatch.blizzard.com/en-us/heroes/cassidy/" class="btn btn-lg btn-success buttons">Know More!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card text-white bg-dark mb-3">
+                    <img src="/Photos/card2.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Hanzo</h5>
+                        <p class="card-text">A skilled bowman and assassin equipped with a quiver of enhanced arrows, 
+                            Hanzo Shimada strives to prove himself as a warrior without peer.</p>
+                        <a href="https://overwatch.blizzard.com/en-us/heroes/hanzo/" class="btn btn-lg btn-success buttons">Know More!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card text-white bg-dark mb-3">
+                    <img src="/Photos/card3.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Tracer</h5>
+                        <p class="card-text">The Overwatch agent known as Tracer is a time-jumping adventurer and an irrepressible force for good. 
+                            Toting twin pulse pistols and time bombs, Tracer is able to "blink" through space and rewind her personal 
+                            timeline as she battles to right wrongs the world over.</p>
+                        <a href="https://overwatch.blizzard.com/en-us/heroes/tracer/" class="btn btn-lg btn-success buttons">Know More!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card text-white bg-dark mb-3">
+                    <img src="/Photos/card4.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Soldier 76</h5>
+                        <p class="card-text">Armed with cutting-edge weaponry, including an experimental pulse rifle that’s capable of firing spirals 
+                            of high-powered rockets, 
+                            Soldier: 76 has the speed and support know-how of a highly trained warrior.</p>
+                        <a href="https://overwatch.blizzard.com/en-us/heroes/soldier-76/" class="btn btn-lg btn-success buttons">Know More!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card text-white bg-dark mb-3">
+                    <img src="/Photos/card5.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Wrecking Ball</h5>
+                        <p class="card-text">Hammond, the genetically-engineered hamster, rolls across the battlefield in his highly mobile 
+                            Wrecking Ball mech. With an arsenal of weapons and the power of momentum, 
+                            he will crush any enemies who get in his way</p>
+                        <a href="https://overwatch.blizzard.com/en-us/heroes/wrecking-ball/" class="btn btn-lg btn-success buttons">Know More!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card text-white bg-dark mb-3">
+                    <img src="/Photos/card6.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Junker Queen</h5>
+                        <p class="card-text">The Junker Queen is the uncontested ruler of the chaotic city of Junkertown. 
+                            Armed with a shotgun, her knife Gracie, 
+                            and her axe Carnage, she delights in wreaking havoc on the front line of battle.</p>
+                        <a href="https://overwatch.blizzard.com/en-us/heroes/junker-queen/" class="btn btn-lg btn-success buttons">Know More!</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- Footer -->
+
+
+    <div class="mt-4">
+
+        <footer class="text-center" style="background-color: #f1f1f1;">
+
+            <div class="container pt-4">
+                
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <h5 class="animate__animated animate__bounce">HEROES OF OVERWATCH</h5>
+                    <p>Overwatch features an international cast of powerful heroes with captivating personalities and backstories. 
+                        Explore the some roster above.</p>
+
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="https://www.facebook.com/PlayOverwatch/" role="button" data-mdb-ripple-color="dark"><i
+                            class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="https://twitter.com/playoverwatch" role="button" data-mdb-ripple-color="dark"><i
+                            class="fab fa-twitter"></i></a>
+
+
+                    <!-- Instagram -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="https://www.instagram.com/playoverwatch/?hl=en" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022 Copyright: Akib Raihan
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>

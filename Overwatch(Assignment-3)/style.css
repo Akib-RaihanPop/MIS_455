@@ -1,0 +1,55 @@
+/* Card */
+.card-title {
+    font-family: 'Trispace', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.5em 0.5em;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-family: 'Trispace', sans-serif;
+    margin-left: 1.5rem;
+}
+
+.nav-item {
+    font-family: 'Trispace', sans-serif;
+    margin-right: 1.5rem;
+}
+
+/* Image slider */
+.carousel-item {
+    height: 45rem;
+    background: #000;
+    color: white;
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    padding-bottom: 3rem;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+/* Animation */
+.buttons {
+    display: none;
+}
+
+.card:hover .buttons {
+
+    display: block;
+}
