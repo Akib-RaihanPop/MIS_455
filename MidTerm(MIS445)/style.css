@@ -1,0 +1,40 @@
+.bground {
+    background-color: #f1fff0;
+}
+
+.bground2 {
+    background-color: #edfaef;
+    border-radius: 5%;
+}
+.bground2:hover{
+    box-shadow: 5px 10px 18px #888888;
+    background-color: #f1fff0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.logo {
+    max-height: fit-content;
+}
+
+img {
+    height: fit-content;
+}
+
+.imageresize {
+    height: 45%;
+    width: 25%;
+}
+
+.txtcolor {
+    color: #2a0a3d
+}
+
+
+
+.card span img {
+    width: 8%;
+    height: 8%;
+}
