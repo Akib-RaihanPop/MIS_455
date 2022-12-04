@@ -1,0 +1,17 @@
+body {
+    background-color: #72b4f5;
+}
+
+.btn {
+    background-color: rgb(129, 191, 228);
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 18rem);
+}
